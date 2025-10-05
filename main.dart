@@ -24,14 +24,16 @@ import 'dart:io';
 
 void main() {
   List<String> loginOpt = ["Login", "SignUp"]; // login options
-  print(loginOpt);
+  print (loginOpt);
 
   bool Login = true;
   bool SignUp = true;
 
   if (Login) {
-    print("Enter a username:");
-    String userName = stdin.readLineSync() ?? 'Guest';
-    print("Welcome, $userName!");
+    print("Enter a username ");
+  
+  String userName = stdin.readLineSync() ?? ' Enter a username ';
   }
+
+  String userName = stdin.readLineSync() ?? ' Enter a username ';
 }
