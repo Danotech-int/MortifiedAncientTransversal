@@ -1,24 +1,4 @@
-/* import "dart:io";
-import 'dart:math';
 
-void main() {
-bool isSmart = false;
-bool isStudent = false;
-if (isStudent &&  isSmart){
-   print("You are a smart student");
-}
-  else if(isStudent && !isSmart){
-  print("You are a student but not smart");
-} else if(isStudent && isSmart){
-   print("You are smart but not a student");
-}  else if(!isStudent && !isSmart)
-  {
-    print("You are neither a student nor smart. Chaii");
-}
-  
-}
-
-*/
 import 'dart:io';
 
 void main() {
